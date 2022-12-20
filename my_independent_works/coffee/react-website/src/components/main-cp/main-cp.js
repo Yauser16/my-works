@@ -10,7 +10,7 @@ const MainCp = () => {
             <section className="about__coffee">
                 <div className="wrapper">
                     <div className="about__img">
-                        <img src={girlcoffee} alt="about our beans" />
+                        {<img src={girlcoffee} alt="about our beans" />}
                     </div>
                     <div className="about__text">
                     <div className="text">

@@ -7,21 +7,22 @@ const OurBest = (props) => {
     const best = newArr.map(item => {
         /* const require = "require(" + item.img + ")"; */
               return ( 
-            <div className="stock">
+            <div className="stock" key={item.id}>
                 <img src={item.img} alt="our coffee" className="coffeeshop" />
-                <p className="cofee">{item.name} {item.weight + "kg"}</p>
-                {/* <p className="cofeeshop">{item.country}</p> */}
+                <p className="cofee">{item.name} {item.weight + "kg"}</p>               
                 <p className="cofeeprice">{item.price + "$"}</p>
             </div>
             
                 )})
       
     return (
-        <div className="our-best">
+        <div className="our-best">            
             <h3 className="about-us">
                 Our best
             </h3>
-           {best}            
+            <div className="o__b__wrap">
+           {best} 
+           </div>           
         </div>
     );
 }   
