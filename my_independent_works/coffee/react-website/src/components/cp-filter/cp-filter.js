@@ -1,5 +1,5 @@
 
-import { Fragment } from 'react';
+
 import './cp-filter.css';
 import OurCoffee from '../our-coffee/our-coffee';
 
@@ -22,11 +22,11 @@ const CpFilter = (props) => {
         )
     })
     return (
-<>
+    <>
         <section className="filter__menu">
             <div className="sortir">
                 <p className="look">Looking for</p>
-                <button name="all" 
+                <button key="all" 
                 onClick={() =>props.onFilterSelect("all")}> 
                 <p className="here">start typing here..</p>    
                 </button>
@@ -36,8 +36,8 @@ const CpFilter = (props) => {
                 {buttons}                
             </div>
         </section> 
-        <OurCoffee data={props.data}/>
-</>  
+        <OurCoffee data={props.data} coffeeItem={props.coffeeItem} />
+    </>  
     )
 };
 

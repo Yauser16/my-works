@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar/index';
 import BeansLogoBlack from '../components/beanslogoblack/beanslogoblack';
 import OurBest from '../components/our-best/our-best';
 import Footer from '../components/footer/footer';
+import { NavLink, NavText } from '../components/Navbar/NavbarElements';
 
 const Main = (props) => {
     return (
@@ -21,8 +22,8 @@ const Main = (props) => {
         <h2 className="main-text-two">
             Want to try our beans?
         </h2>
-        <div href="#" className="more" type="button">
-            <p>More</p>
+        <div className="more" type="button">
+            <NavLink more="true" to="/goods" activestyle="true"><NavText>More</NavText></NavLink>{/* </a> */}
         </div>
     </section>
     <main>
