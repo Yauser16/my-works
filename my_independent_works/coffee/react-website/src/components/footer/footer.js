@@ -1,13 +1,17 @@
 
 import './footer.css';
 import logo1 from '../images/Logo-1.svg';
+import { NavLink,  NavText } from '../Navbar/NavbarElements';
 
 const Footer = () => {
     return (
         <nav className="footer">
-    <div className="menu__black"><a href="/goods"><img src={logo1} alt="logo"/></a></div> 
-        <div className="menu__black"><a className="menu__item__black" href="/coffee">Our coffee</a></div>
-        <div className="menu__black"><a className="menu__item__black" href="/item">For your pleasure</a></div>                 
+            <NavLink className="menu" to="/" activestyle="true">
+                <img src={logo1} alt="logotip"/></NavLink> 
+            <NavLink className="menu" to="/goods" activestyle="true">
+                <NavText footer>Our coffee</NavText></NavLink>
+            <NavLink className="menu" to="/coffee" activestyle="true">
+                <NavText footer>For your pleasure</NavText></NavLink>                 
     </nav>    
     );
 }

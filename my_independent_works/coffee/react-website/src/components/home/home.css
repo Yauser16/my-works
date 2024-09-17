@@ -18,10 +18,22 @@
     text-align: center;
   }
   main {
-    height: 520px;
+    /* height: 520px; */
     margin-top: 0px;
     width: 100%;  
+    margin-bottom: 94px;
   }
+  @media screen and (max-width: 800px) {
+    main {
+      margin-bottom: 50px;
+    }
+  }
+  @media screen and (max-width: 440px) {
+    main {
+      margin-bottom: 130px;
+    }
+  }
+  
   .main-text {
     text-align: center;
     font-style: normal;
@@ -48,15 +60,17 @@
     margin: 18px auto 0 auto;
     text-align: center;
     font-size: 14px;
+    cursor: pointer;
   }
-  .more p { 
+  /* .morep { 
     text-align: center;  
     font-size: 14px;
     transform: translate(0, 20%)
-  }
+  } */
   .about {
     position: relative;
     text-align: center;
+    
   }
   .about-us {
     color: black;
@@ -64,7 +78,13 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 35px; 
-    padding-top: 90px; 
+    padding-top: 80px; 
+    margin-bottom: -10px;
+  }
+  @media screen and (max-width: 800px) {
+    .about-us {
+        padding-top: 30px;
+    }
   }
   main div img {
     margin-top: 11px;
@@ -73,13 +93,19 @@
   .about-text-p {
     color: black;  
     height: 230px; 
-    width: 590px; 
+    max-width: 590px; 
     /* position: absolute; */
     text-align: center;
-    margin: 42px auto 0 auto;
+    margin: 52px auto 0 auto;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;  
   }
+
+  @media screen and (max-width: 800px) {
+  .about-text-p {
+      margin-top: 30px;
+  }
+}
   
   

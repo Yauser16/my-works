@@ -6,6 +6,15 @@
     margin-top: 60px;
     padding-left: 10px;
 }
+@media screen and (max-width : 650px) {
+    .filter__menu {
+        display: block;
+        margin-top: 30px;
+        padding-left: 0px;
+        padding-right: 0px;;
+        margin: 0 auto;
+    } 
+}
 
 .sort {
     width: 75px;
@@ -15,13 +24,20 @@
     border-radius: 4px 0px 0px 4px;
     display: flex;
     margin-right: 5px;
-   /*  transform: rotate(180deg); */
+    cursor: pointer;
 }
 .sortir {
     display: flex;
     width: 284px;
     height: 30px;
     margin-left: 20px;
+}
+@media screen and (max-width : 650px) {
+    .sortir {
+        padding-left: 0px;
+        padding-right: 0px;;
+        margin: 10px auto;
+    } 
 }
 .sortir button {
     width: 180px;
@@ -34,8 +50,14 @@
 .filter {
     display: flex;
     width: 326px;
-    height: 30px;
-    
+    height: 30px;    
+}
+@media screen and (max-width : 650px) {
+    .filter {
+        padding-left: 0px;
+        padding-right: 0px;;
+        margin: 0 auto;
+    } 
 }
 .here {
     font-style: normal;
@@ -44,6 +66,7 @@
     line-height: 17px;
     color: rgba(0, 0, 0, 0.5);
     margin: auto;
+    cursor: pointer;
 
 }
 .look {
@@ -67,3 +90,4 @@ border: 1px solid rgba(0, 0, 0, 0.5);
 .btn-outline-light {
 border: none;
 }
+

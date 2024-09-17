@@ -1,0 +1,95 @@
+.today {
+  margin-top: 5px;
+
+}
+
+.details {
+  background-color: #f5f1bc;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.details>img {
+  /* font-weight: 700;
+  font-size: 1.2em; */
+  margin-top: 10px;
+
+  /* display: flex;
+    align-items: center; */
+
+}
+
+.details>div {
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.day {
+  color: rgb(86, 86, 155);
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.date {
+  font-weight: 600;
+  font-size: 1em;
+  color: rgb(94, 92, 90)
+}
+
+.temperatureDay {
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 1.15em;
+}
+
+.temperatureNight {
+  font-weight: 600;
+  font-size: 1em;
+  color: rgb(94, 92, 90)
+}
+
+.fallout {
+  font-weight: 600;
+  height: 50px;
+  font-size: 1em;
+  color: rgb(94, 92, 90)
+}
+
+.nextDay {
+  padding-top: 10px;
+  align-items: top;
+  width: 150px;
+}
+h2 {
+  font-size: 4em;
+ font-weight: 800;
+ margin: 20px auto;
+}
+
+.nextDetails>div {
+  margin-bottom: 10px;
+}
+.rating {
+  color: rgba(230, 112, 10, 0.905);
+  font-weight: 700;
+  font-size: 1.2em;
+}
+.mistake {
+  font-weight: 600;
+  /* height: 50px; */
+  font-size: 1em;
+  color: rgb(94, 92, 90)
+}
+.mistakeCheck {
+  margin-top: 10px;
+  color: rgba(5, 116, 26, 0.816);
+  font-weight: 700;
+  font-size: 1.3em;
+}

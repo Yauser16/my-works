@@ -1,20 +1,28 @@
 
 .goods__wr {
-    overflow: hidden;
+    overflow: auto;
     margin-bottom: 50px;
     margin-top: 50px;
+    margin-left: auto;
+    margin-right:auto;
+    max-width: 860px;
 }
 .goods__our-best {
     max-width: 802px;
     height: 590px;  
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;     
+    margin-top: 10px;    
     background-color: #fff;    
     display: flex;
     justify-content: space-between;   
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction:row;
+}
+@media screen and (max-width: 715px) {
+    .goods__our-best {
+        justify-content: space-around;  
+    }    
 }
 .goods__stock {
     width: 220px;
@@ -25,9 +33,12 @@
     background: #FFFFFF;
     border-radius: 8px;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 .goods__coffeeshop {
     position: absolute;
+    width: 151px;
+    height: 134px;
     top: 39%;
     right: 50%;
     transform: translate(50%, -50%);

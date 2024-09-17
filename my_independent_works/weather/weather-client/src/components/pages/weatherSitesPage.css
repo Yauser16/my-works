@@ -1,0 +1,16 @@
+.boss {
+    width: max-content;
+    margin: 0 auto;
+}
+
+header {
+    margin: 30px auto 20px auto;
+    height: 200px;
+    border: 1px solid black;
+}
+
+
+
+.wrapper {
+    display: flex;
+}
